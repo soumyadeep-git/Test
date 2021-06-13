@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class ifsample{
     public static void main(String argrs[]){
-        Scanner s = new Scanner(System.in);
+        Scanner s = Scanner(System.in); //changed here
         System.out.println("enter length ");
         int length = s.nextInt();
         System.out.println("enter breadth ");
